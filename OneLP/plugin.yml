@@ -1,0 +1,38 @@
+name: 24One
+version: 1.0
+api: [3.6.0, 3.6.1, 3.6.2, 3.6.3, 3.6.4, 3.6.5, 3.6.6, 3.6.7, 3.6.7]
+main: 24One\Main
+author: MarcelHDYT
+commands:
+  server:
+    description: §9server Befehl
+    usage: /server
+  autohr:
+    description: §9Author Befehl
+    usage: /author
+  yt:
+    description: §9YT Befehl
+  heal:
+    description: §9Heal Befehl
+    usage: /heal
+    permission: fire.heal
+  feed:
+    description: §9Futter Befehl
+    usage: /feed
+    permission: fire.feed
+  gm0:
+    description: §9Überlebens Modus
+    usage: /gm0
+    permission: fire.gm0
+  gm1:
+    description: §9Kreativ Modus
+    usage: /gm1
+    permission: fire.gm1
+  gm2:
+    description: §9Abenteuer Modus
+    usage: /gm2
+    permission: fire.gm2
+  gm3:
+    description: §9Spectator Modus
+    usage: /gm3
+    permission: fire.gm3
